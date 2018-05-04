@@ -53,5 +53,7 @@ section {
       width: 1000px;
       height: 500px;
       transition: 2s; }
-
+.hide_img {
+  opacity : 0;
+}
 /*# sourceMappingURL=style.css.map */
