@@ -33,7 +33,7 @@ $(document).ready(function(){
             if($first.position().left < 0) {
                 
                 // 다시 오른쪽으로 보내려는 엘리먼트를 일단 투명하게 만든다.
-                $first.css("opacity", "0");
+                $first.addClass(".hide_img");
                 
                 $first.css("left",$last.position().left);
                 
@@ -42,7 +42,7 @@ $(document).ready(function(){
                 
                 setTimeout(function() {
                     // 2초 뒤에 내가 아까 opacity 를 0으로 만들었던 녀석을 원상복구 시킨다.
-                    $dd.css("opacity", "1");
+                    $dd.removeClass(".hide_img");
                 }, 2000);
                              
                 first++;
