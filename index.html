@@ -2,36 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>동창회</title>
     <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
-    <div id="wrap">
-        <header>
-            <h1><img src="img/logo.png" alt="로고">
-            </h1>
+    <div class="ad btn_close">
+        <div class="ad_img">
+            <img src="img/partner.jpg" alt="광고">
+            <p>크아앙</p>
+            <button>닫기</button>
+        </div>
+    </div>
+    <div class="wrap">
+        <header><!--헤더-->
+            <h2><img src="img/logo.png" alt="로고"></h2>
             <nav>
-                <ul class="top_menu">
-                    <li><a href="#">대학원소개</a></li>
-                    <li><a href="#">동문회소개</a></li>
-                    <li><a href="#">커뮤니티</a></li>
+                <ul class="main">
+                    <li><a href="#">메인메뉴1</a></li>
+                    <li><a href="#">메인메뉴2</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">서브메뉴1</a></li>
+                            <li><a href="#">서브메뉴2</a></li>
+                            <li><a href="#">서브메뉴3</a></li>
+                            <li><a href="#">서브메뉴4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">메인메뉴3</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">서브메뉴1</a></li>
+                            <li><a href="#">서브메뉴2</a></li>
+                            <li><a href="#">서브메뉴3</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </header>
         
-        <section>
+        <div class="visual"><!--비쥬얼 슬라이드-->
+           <div class="comeon">
+               환영합니다!!!
+           </div>
+            <ul class="slide">
+                <li><img src="img/img1.jpg" alt="슬라이드이미지"></li>
+                <li><img src="img/img2.jpg" alt="슬라이드이미지"></li>
+                <li><img src="img/img3.jpg" alt="슬라이드이미지"></li>
+            </ul>
+        </div>
+        
+        <section><!--섹션!-->
             <div class="top">
-                <img src="img/img1.jpg" alt="">
-                <img src="img/img2.jpg" alt="">
-                <img src="img/img3.jpg" alt="">
+                <div class="top_left">
+                    <h2>공지사항</h2>
+                    <ul>
+                        <li><a href="#">공지사항 내용<span>날짜블라</span></a></li>
+                        <li><a href="#">공지사항 내용<span>날짜블라</span></a></li>
+                        <li><a href="#">공지사항 내용<span>날짜블라</span></a></li>
+                        <li><a href="#">공지사항 내용<span>날짜블라</span></a></li>
+                       <li><a href="#">공지사항 내용<span>날짜블라</span></a></li>
+                       <li><a href="#">공지사항 내용<span>날짜블라</span></a></li>
+                    </ul>    
+                </div>
+                
+                <div class="top_right">
+                    <h2>파트너</h2>
+                    <button class="banner_img"><img src="img/partner.jpg" alt=""></button>
+                    <ul class="banner_list">
+                        <li>블라블라블라1</li>
+                        <li>블라블라블라2</li>
+                        <li>블라블라블라3</li>
+                        <li>블라블라블라4</li>
+                        <li>블라블라블라5</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="bottom">
+                <ul class="icon">
+                    <li><button>아이콘버튼</button></li>
+                    <li><button>아이콘버튼</button></li>
+                    <li><button>아이콘버튼</button></li>
+                </ul>
             </div>
         </section>
         
-        <footer>
-            
+        <footer><!--푸터푸투-->
+            <div class="ft_left">
+                <ul>
+                    <li><a href="#">가로 푸터1</a></li>
+                    <li><a href="#">가로 푸터2</a></li>
+                    <li><a href="#">가로 푸터3</a></li>
+                </ul>
+            </div>
+            <div class="ft_right">
+                <ul>
+                    <li>세로푸터1</li>
+                    <li>세로푸터2</li>
+                    <li>세로푸터3</li>
+                    <li>세로푸터4</li>
+                    <li>세로푸터5</li>
+                    <li>세로푸터6</li>
+                    <li><a href="email">이메일</a></li>
+                </ul>
+            </div>
         </footer>
     </div>
 </body>
