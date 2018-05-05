@@ -19,7 +19,7 @@ $(document).ready(function () {
             $(this).css("left", left_pos - 1000);
             if(left_pos==-1000){
                 $(this).css({
-                    left:'1000px',
+                    left:"1000px",
                     opacity:0
                 });
             }else {
