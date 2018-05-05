@@ -50,7 +50,7 @@ $(document).ready(function () {
 
                 $(this).css('opacity','1');
 
-            }
+            };
 
         });
 
