@@ -106,12 +106,12 @@ a {
 
 .wrap .slide li {
     position: absolute;
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 .wrap .slide li img {
     width: 1000px;
     height: 300px;
-    transition-duration: 0s;
+    
 }
 
 /*공지사항!!*/

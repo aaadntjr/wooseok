@@ -41,9 +41,9 @@ $(document).ready(function(){
             
             if(left_pos==-1000){
                 $(this).css({left:'1000px'});
-                $(this).children().css({opacity:'0'});
+                $(this).children().css({display:'none'});
             } else {
-                $(this).children().css({opacity:'1'});
+                $(this).children().css({display:'inline-block'});
             }
         });
     },2000);
