@@ -1,7 +1,7 @@
 $(document).ready(function () {
  
     var count = $(".top ul li").length;
-    var img_width = $('.top ul li img').css("width");
+    var img_width = $(".top ul li img").css("width");
     var ul_width = count * parseInt(img_width);
     $(".top ul").css("width", ul_width + "px");
  
