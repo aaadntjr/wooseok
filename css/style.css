@@ -10,7 +10,9 @@ ul, li {
 a {
     text-decoration: none;
 }
-
+button:hover {
+    cursor: pointer;
+}
 .wrap {
     width: 1000px;
     margin: 0 auto;
