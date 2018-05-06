@@ -59,6 +59,7 @@ button:hover {
     }
 .wrap .main >li:hover {
     background: #009688;
+    curse : pointer;
 }
 .wrap .main li:hover >a {
     color: white;
