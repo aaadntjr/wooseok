@@ -13,7 +13,7 @@ $(document).ready(function(){
     //서브메뉴 드롭다운
     
     $(".wrap .main li").hover(function(){
-        $("ul",this).slideToggle();
+        $("ul",this).slideToggle("fast");
     });
     
     //슬라이드 쇼
